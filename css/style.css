@@ -1,3 +1,13 @@
+.icon{
+  font-size: 100px;
+  color: #2b7d80;
+
+}
+
+.tagline{
+  transform: translateY(50px);
+  margin:20px;
+}
 /* Top Carousel */
 
 #topbanner {
@@ -431,7 +441,7 @@
 /* Smartphones (portrait and landscape) ----------- */
 
 @media only screen and (max-width: 480px) {
-	
+
   #topbanner {
     height: 300px;
   }
@@ -462,24 +472,24 @@
   .chiropractors-marketing p {
     font-size: 40px;
     line-height: 45px;
-    
+
   }
 
   .full-profile {
    padding-left: 10px;
    padding-right: 10px;
    margin-left: -10px;
-   font-size: 14px; 
+   font-size: 14px;
   }
-	
+
   .profile-note {
     margin-left: 0px;
   }
-	
+
   .chiropractor-info {
     margin-left: 0px;
   }
-	
+
 	h1 {
 		font-size: 30px !important;
 	}
@@ -491,11 +501,11 @@
   background-position: center center;
   background-size: 100% 100%;
 }
-	
+
 }
 
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
-	
+
   #topbanner {
     height: 350px;
   }
@@ -508,6 +518,5 @@
     padding-bottom: 120px;
     line-height: 45px;
   }
-	
-}
 
+}
